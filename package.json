@@ -1,0 +1,47 @@
+{
+  "name": "electron-vite-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An Electron application with Vue and TypeScript",
+  "main": "./out/main/index.js",
+  "author": "CaoMeiYouRen",
+  "license": "MIT",
+  "scripts": {
+    "lint": "cross-env NODE_ENV=production eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix",
+    "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
+    "typecheck:web": "vue-tsc --noEmit -p tsconfig.web.json --composite false",
+    "typecheck": "npm run typecheck:node && npm run typecheck:web",
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev",
+    "build": "npm run typecheck && electron-vite build",
+    "postinstall": "electron-builder install-app-deps",
+    "build:win": "npm run build && electron-builder --win --config",
+    "build:mac": "npm run build && electron-builder --mac --config",
+    "build:linux": "npm run build && electron-builder --linux --config"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^1.0.3",
+    "@electron-toolkit/utils": "^1.0.2"
+  },
+  "devDependencies": {
+    "@electron-toolkit/tsconfig": "^1.0.1",
+    "@electron/notarize": "^1.2.3",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@types/node": "16.18.21",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "cross-env": "^7.0.3",
+    "electron": "^22.3.4",
+    "electron-builder": "^23.6.0",
+    "electron-vite": "^1.0.21",
+    "eslint": "^8.36.0",
+    "eslint-config-cmyr": "^1.1.28",
+    "eslint-plugin-vue": "^9.10.0",
+    "less": "^4.1.3",
+    "sass": "^1.62.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1",
+    "vue": "^3.2.47",
+    "vue-tsc": "^1.2.0"
+  }
+}
