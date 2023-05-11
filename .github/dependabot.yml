@@ -12,5 +12,3 @@ updates:
       interval: "daily"
       time: "4:00"
       timezone: "Asia/Shanghai"
-    # ignore:
-    # - dependency-name: "sass-loader"
