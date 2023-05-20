@@ -596,10 +596,10 @@
   resolved "https://registry.npmmirror.com/@types/node/-/node-16.18.21.tgz#061e3b51668f74bf3aaa44450dcf0acd625841f7"
   integrity sha512-TassPGd0AEZWA10qcNnXnSNwHlLfSth8XwUaWc3gTSDmBz/rKb613Qw5qRf6o2fdRBrLbsgeC9PMZshobkuUqg==
 
-"@types/node@^16.11.26":
-  version "16.18.28"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-16.18.28.tgz#f674e1577827c5282e5005c3fa99ea06df835c49"
-  integrity sha512-SNMfiPqsiPoYfmyi+2qnDO4nZyMIOCab/CW+Slcml0lhIzkOizYzWtt/A7tgB3TSitd+YJKi8fSC2Cpm/VCp7A==
+"@types/node@^18.11.18":
+  version "18.16.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.13.tgz#984c48275c718b5b3e47371938f3cff482790598"
+  integrity sha512-uZRomboV1vBL61EBXneL4j9/hEn+1Yqa4LQdpGrKmXFyJmVfWc9JV9+yb2AlnOnuaDnb2PDO3hC6/LKmzJxP1A==
 
 "@types/plist@^3.0.1":
   version "3.0.2"
@@ -1585,13 +1585,13 @@ electron-vite@^1.0.21:
     magic-string "^0.30.0"
     picocolors "^1.0.0"
 
-electron@^22.3.4:
-  version "22.3.9"
-  resolved "https://registry.npmmirror.com/electron/-/electron-22.3.9.tgz#8b4551f9bcea436a0110e5680ba23df56819a4e2"
-  integrity sha512-C+ws4LnGxd+BQGVbKRgR9L1hfslk1L6FHYBm3a7dWL6xcobVm4dLyqShT/5N8lNRXlN1BhIYsWmrAisdd537Tw==
+electron@^24.3.1:
+  version "24.3.1"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-24.3.1.tgz#f7d7d2018088d98b629c196b3a59e09a3a156c4a"
+  integrity sha512-lKfC0umie1k5LW48troHzpPKJrqPEW+5j14/CPTC41K9+dJA98oUPt/05G7QAe8OGD4fHjQQuulfRdZ9MjjXeQ==
   dependencies:
     "@electron/get" "^2.0.0"
-    "@types/node" "^16.11.26"
+    "@types/node" "^18.11.18"
     extract-zip "^2.0.1"
 
 emoji-regex@^8.0.0:
