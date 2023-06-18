@@ -34,7 +34,7 @@
     "electron": "^25.1.1",
     "electron-builder": "^24.4.0",
     "electron-vite": "^1.0.23",
-    "eslint": "^8.42.0",
+    "eslint": "^8.43.0",
     "eslint-config-cmyr": "^1.1.28",
     "eslint-plugin-vue": "^9.15.0",
     "less": "^4.1.3",
