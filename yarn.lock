@@ -1514,10 +1514,10 @@ electron-to-chromium@^1.4.431:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.456.tgz#aab5f3b421a07a73cf646d28e63c41238fc45849"
   integrity sha512-d+eSL4mT9m72cnDT/kfQj6Pv6Cid4pUVlLOl8esm2SZuXBgtXtUyvCfc9F++GHLWLoY4gMNqg+0IVAoQ3sosKA==
 
-electron-vite@^1.0.25:
-  version "1.0.25"
-  resolved "https://registry.yarnpkg.com/electron-vite/-/electron-vite-1.0.25.tgz#63bd5dec9268479e6a502161137d66340a05c214"
-  integrity sha512-qdqLWfxP1aW7kXQUx8hw9aKrFTjb5dRl866V+Y58cAdt1iF8iAigJj2hRw5oBbUbtT2RmrtX+3ikCgV+AmAYVw==
+electron-vite@^1.0.26:
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/electron-vite/-/electron-vite-1.0.26.tgz#c6eb8914b2ea417d24cf10922fcdbf6b9d408085"
+  integrity sha512-o051xcX0953rfWw0eYuO8INDQ/wXPRXjB0gmRctzARSHhLrWA+bT8wFLdSYM7NN2TKxL+On0GU9bvQpOA3cGQQ==
   dependencies:
     "@babel/core" "^7.22.8"
     "@babel/plugin-transform-arrow-functions" "^7.22.5"
