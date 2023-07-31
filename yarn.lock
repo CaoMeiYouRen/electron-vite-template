@@ -1617,10 +1617,10 @@ eslint-config-cmyr@^1.1.28:
   resolved "https://registry.npmmirror.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.28.tgz#37b013a06111492ebfc8f3038ef1101b8b37d166"
   integrity sha512-p+zoxZahMOmTiShSQChXLJXRVLDjq8OHMGgD0PYlxTmMITq604jnQ6VRo/NZJ8oAlXa1oo77pMqESvYUqhbtgA==
 
-eslint-plugin-vue@^9.16.0:
-  version "9.16.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.16.0.tgz#67b85756126e2a6989a5c2eeb8540a4afc91aa99"
-  integrity sha512-SonAuvQXFm9HBV9ww/YkYZVYPMR8ptxxuJwcKGnG9A65SyvNANP9MKlfnC49L6DIwt/YEQZwZWEMHOkL1d5s1A==
+eslint-plugin-vue@^9.16.1:
+  version "9.16.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.16.1.tgz#3508d9279d797b40889db76da2fd26524e9144e6"
+  integrity sha512-2FtnTqazA6aYONfDuOZTk0QzwhAwi7Z4+uJ7+GHeGxcKapjqWlDsRWDenvyG/utyOfAS5bVRmAG3cEWiYEz2bA==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     natural-compare "^1.4.0"
