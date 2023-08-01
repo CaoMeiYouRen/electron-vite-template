@@ -33,7 +33,7 @@
     "cross-env": "^7.0.3",
     "electron": "^25.3.2",
     "electron-builder": "^24.6.3",
-    "electron-vite": "^1.0.26",
+    "electron-vite": "^1.0.27",
     "eslint": "^8.46.0",
     "eslint-config-cmyr": "^1.1.28",
     "eslint-plugin-vue": "^9.16.1",
