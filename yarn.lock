@@ -1604,10 +1604,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-cmyr@^1.1.29:
-  version "1.1.29"
-  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.29.tgz#c79bd949b5b9f1e0b679462a72dd9d558e4ea7a7"
-  integrity sha512-r0PlmVKufq5eTjdPR9LgSZBCQnk8WjJ0ieFsTG+1gV7nUGGeGOffaPwAkH4YC5mVYQkQlkrh1nnR3G7lynSsdA==
+eslint-config-cmyr@^1.1.30:
+  version "1.1.30"
+  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.30.tgz#85f16287a183622b10344658a2619383e8bd2321"
+  integrity sha512-79sOX0nqYqg/lytlUvK4q6DMGRhLJ5uCWdjg/bIJZzLgWNb4lw0a0V2Ulg2z3Pvt0g/26ZY6d/t5WQ2Ki7qYlw==
 
 eslint-plugin-vue@^9.17.0:
   version "9.17.0"
