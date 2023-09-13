@@ -236,10 +236,10 @@
   resolved "https://registry.npmmirror.com/@electron-toolkit/tsconfig/-/tsconfig-1.0.1.tgz#78048d3178dd7a6a573590e23240f0764b0c14af"
   integrity sha512-M0Mol3odspvtCuheyujLNAW7bXq7KFNYVMRtpjFa4ZfES4MuklXBC7Nli/omvc+PRKlrklgAGx3l4VakjNo8jg==
 
-"@electron-toolkit/utils@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@electron-toolkit/utils/-/utils-2.0.0.tgz#f59f81f824a401dc3f7dbca4290c7751aaefa71c"
-  integrity sha512-taE/vvFOpoK5jyjUJTmMCjyGC2ODEObku4uvEt3PxoGPy25abGZcp9nbbbqBPqnfBjh88XSaPtnLRZNuOpHnnA==
+"@electron-toolkit/utils@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@electron-toolkit/utils/-/utils-2.0.1.tgz#ccf0406bd745713d903ac7ca1d3a070d8d718750"
+  integrity sha512-3nnjd3D1NIjxdzNrvR5fkJ3kbJNbRkpHppv0/pSbMX6I0DaBzpPXeSfDYuJJKzZrAc3CmGcJa0MU4+AjEOlT4g==
 
 "@electron/asar@^3.2.1":
   version "3.2.4"
