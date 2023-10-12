@@ -38,7 +38,7 @@
     "eslint-config-cmyr": "^1.1.30",
     "eslint-plugin-vue": "^9.17.0",
     "less": "^4.2.0",
-    "sass": "^1.69.2",
+    "sass": "^1.69.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.11",
     "vue": "^3.3.4",
