@@ -36,7 +36,7 @@
     "electron-vite": "^1.0.28",
     "eslint": "^8.52.0",
     "eslint-config-cmyr": "^1.1.30",
-    "eslint-plugin-vue": "^9.18.0",
+    "eslint-plugin-vue": "^9.18.1",
     "less": "^4.2.0",
     "sass": "^1.69.5",
     "typescript": "^5.2.2",
