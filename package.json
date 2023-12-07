@@ -28,7 +28,7 @@
     "@electron/notarize": "^2.2.0",
     "@rushstack/eslint-patch": "^1.6.0",
     "@types/node": "20.10.3",
-    "@vitejs/plugin-vue": "^4.5.1",
+    "@vitejs/plugin-vue": "^4.5.2",
     "@vue/eslint-config-typescript": "^12.0.0",
     "cross-env": "^7.0.3",
     "electron": "^28.0.0",
