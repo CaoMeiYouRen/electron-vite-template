@@ -286,10 +286,10 @@
     ajv "^6.12.0"
     ajv-keywords "^3.4.1"
 
-"@electron-toolkit/preload@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@electron-toolkit/preload/-/preload-2.0.0.tgz#1b704c4c4643ae1d960835db196625e17c9dcf4e"
-  integrity sha512-zpZDzbqJTZQC5d4LRs2EKruKWnqah+T75s+niBYFemYLtiW5TTZcWi3Q8UxHqnwTudDMuWJb233aaS2yjx3Xiw==
+"@electron-toolkit/preload@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@electron-toolkit/preload/-/preload-3.0.0.tgz#34a801a7038e80fa7dd41cd5d114ce5b0ae3ffc4"
+  integrity sha512-DTyvNGits43J1RiQGFN00/OxjjcTcozLWMjgQBANt97FFptEYiLVasq7kMC24nMwwoOpdDYY9CE6C+4wQJ55/w==
 
 "@electron-toolkit/tsconfig@^1.0.1":
   version "1.0.1"
