@@ -1623,10 +1623,10 @@ electron-to-chromium@^1.4.601:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.624.tgz#ff40ac0afeaeda0c2c7b8cfc19d93c49adb1245b"
   integrity sha512-w9niWuheXjz23vezH3w90n9KKcHe0UkhTfJ+rXJkuGGogHyQbQ7KS1x0a8ER4LbI3ljFS/gqxKh1TidNXDMHOg==
 
-electron-vite@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/electron-vite/-/electron-vite-2.0.0.tgz#707424b0040602f0e48eca3712794d9762fa1a74"
-  integrity sha512-EQiuPVSwJQRPGbZiVrCsCFMDVfNyNtSpDiyUV4fNwPKNadTjBfYMOudnLUpSeBTocKUZYf58SXSzSCAkNg0GTQ==
+electron-vite@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/electron-vite/-/electron-vite-2.1.0.tgz#33908c3b9c90bcab5c5f4c0f6c483263303cc5aa"
+  integrity sha512-DjToUW6q3ILoW79b1yBywC6LubnOw5Axr2zo9cHMlYf00zAO8oVzrCcqinJQTTbJLvqCuVcBzuICMl5MYshUnQ==
   dependencies:
     "@babel/core" "^7.23.5"
     "@babel/plugin-transform-arrow-functions" "^7.23.3"
@@ -2458,14 +2458,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-string@^0.30.5:
-  version "0.30.5"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.5.tgz#1994d980bd1c8835dc6e78db7cbd4ae4f24746f9"
-  integrity sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==
-  dependencies:
-    "@jridgewell/sourcemap-codec" "^1.4.15"
-
-magic-string@^0.30.7:
+magic-string@^0.30.5, magic-string@^0.30.7:
   version "0.30.7"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.7.tgz#0cecd0527d473298679da95a2d7aeb8c64048505"
   integrity sha512-8vBuFF/I/+OSLRmdf2wwFCJCz+nSn0m6DPvGH1fS/KiQoSaR+sETbov0eIk9KhEKy8CYqIkIAnbohxT/4H0kuA==
