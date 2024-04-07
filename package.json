@@ -39,7 +39,7 @@
     "eslint-plugin-vue": "^9.24.0",
     "less": "^4.2.0",
     "sass": "^1.74.1",
-    "typescript": "^5.4.3",
+    "typescript": "^5.4.4",
     "vite": "^5.2.8",
     "vue": "^3.4.21",
     "vue-tsc": "^2.0.10"
