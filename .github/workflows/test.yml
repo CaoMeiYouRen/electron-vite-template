@@ -5,8 +5,11 @@ on:
   workflow_dispatch:
 jobs:
   test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
     name: Test
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -34,6 +37,9 @@ jobs:
       - run: pnpm i --frozen-lockfile
       - run: pnpm run lint
       - run: pnpm run build
-      - name: build-linux
-        # if: matrix.os == 'ubuntu-latest'
+      - name: Build on Linux
+        if: matrix.os == 'ubuntu-latest'
         run: pnpm run build:linux
+      - name: Build on Windows
+        if: matrix.os == 'windows-latest'
+        run: pnpm run build:windows
