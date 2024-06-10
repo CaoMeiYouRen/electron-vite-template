@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@electron-toolkit/preload':
     specifier: ^3.0.1
-    version: 3.0.1(electron@30.1.0)
+    version: 3.0.1(electron@31.0.0)
   '@electron-toolkit/utils':
     specifier: ^3.0.0
-    version: 3.0.0(electron@30.1.0)
+    version: 3.0.0(electron@31.0.0)
 
 devDependencies:
   '@electron-toolkit/tsconfig':
@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^7.0.3
     version: 7.0.3
   electron:
-    specifier: ^30.1.0
-    version: 30.1.0
+    specifier: ^31.0.0
+    version: 31.0.0
   electron-builder:
     specifier: ^24.13.3
     version: 24.13.3(electron-builder-squirrel-windows@24.13.3)
@@ -307,12 +307,12 @@ packages:
       ajv-keywords: 3.5.2(ajv@6.12.6)
     dev: true
 
-  /@electron-toolkit/preload@3.0.1(electron@30.1.0):
+  /@electron-toolkit/preload@3.0.1(electron@31.0.0):
     resolution: {integrity: sha512-EzoQmpK8jqqU8YnM5jRe0GJjGVJPke2KtANqz8QtN2JPT96ViOvProBdK5C6riCm0j1T8jjAGVQCZLQy9OVoIA==}
     peerDependencies:
       electron: '>=13.0.0'
     dependencies:
-      electron: 30.1.0
+      electron: 31.0.0
     dev: false
 
   /@electron-toolkit/tsconfig@1.0.1(@types/node@20.14.2):
@@ -323,12 +323,12 @@ packages:
       '@types/node': 20.14.2
     dev: true
 
-  /@electron-toolkit/utils@3.0.0(electron@30.1.0):
+  /@electron-toolkit/utils@3.0.0(electron@31.0.0):
     resolution: {integrity: sha512-GaXHDhiT7KCvMJjXdp/QqpYinq69T/Pdl49Z1XLf8mKGf63dnsODMWyrmIjEQ0z/vG7dO8qF3fvmI6Eb2lUNZA==}
     peerDependencies:
       electron: '>=13.0.0'
     dependencies:
-      electron: 30.1.0
+      electron: 31.0.0
     dev: false
 
   /@electron/asar@3.2.10:
@@ -2244,8 +2244,8 @@ packages:
       - supports-color
     dev: true
 
-  /electron@30.1.0:
-    resolution: {integrity: sha512-9O8m7kinjwMH5Df0hpXbwUaqI6pk3aJm1sKQUkQGCF7NDbNkGhu2BXgqaicPU6oe26zQPc5vtwWnHmiKlh1hYA==}
+  /electron@31.0.0:
+    resolution: {integrity: sha512-yJMhwu5NVqor7h5mt65uKtBsjSAD7NiRwNCigK8xAlJMaP0X2FKipEzQocOzusy7E0dny4gkTgOTATy+ucDtjw==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true
