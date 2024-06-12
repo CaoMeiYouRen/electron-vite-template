@@ -56,14 +56,14 @@ devDependencies:
     specifier: ^4.2.0
     version: 4.2.0
   sass:
-    specifier: ^1.77.4
-    version: 1.77.4
+    specifier: ^1.77.5
+    version: 1.77.5
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
   vite:
     specifier: ^5.2.12
-    version: 5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.4)
+    version: 5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.5)
   vue:
     specifier: ^3.4.27
     version: 3.4.27(typescript@5.4.5)
@@ -1331,7 +1331,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.4)
+      vite: 5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.5)
       vue: 3.4.27(typescript@5.4.5)
     dev: true
 
@@ -2239,7 +2239,7 @@ packages:
       esbuild: 0.19.12
       magic-string: 0.30.10
       picocolors: 1.0.1
-      vite: 5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.4)
+      vite: 5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3725,8 +3725,8 @@ packages:
       truncate-utf8-bytes: 1.0.2
     dev: true
 
-  /sass@1.77.4:
-    resolution: {integrity: sha512-vcF3Ckow6g939GMA4PeU7b2K/9FALXk2KF9J87txdHzXbUF9XRQRwSxcAs/fGaTnJeBFd7UoV22j3lzMLdM0Pw==}
+  /sass@1.77.5:
+    resolution: {integrity: sha512-oDfX1mukIlxacPdQqNb6mV2tVCrnE+P3nVYioy72V5tlk56CPNcO4TCuFcaCRKKfJ1M3lH95CleRS+dVKL2qMg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -4061,7 +4061,7 @@ packages:
     dev: true
     optional: true
 
-  /vite@5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.4):
+  /vite@5.2.13(@types/node@20.14.2)(less@4.2.0)(sass@1.77.5):
     resolution: {integrity: sha512-SSq1noJfY9pR3I1TUENL3rQYDQCFqgD+lM6fTRAM8Nv6Lsg5hDLaXkjETVeBt+7vZBCMoibD+6IWnT2mJ+Zb/A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4094,7 +4094,7 @@ packages:
       less: 4.2.0
       postcss: 8.4.38
       rollup: 4.18.0
-      sass: 1.77.4
+      sass: 1.77.5
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
