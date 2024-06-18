@@ -56,14 +56,14 @@ devDependencies:
     specifier: ^4.2.0
     version: 4.2.0
   sass:
-    specifier: ^1.77.5
-    version: 1.77.5
+    specifier: ^1.77.6
+    version: 1.77.6
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
   vite:
     specifier: ^5.3.1
-    version: 5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.5)
+    version: 5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.6)
   vue:
     specifier: ^3.4.29
     version: 3.4.29(typescript@5.4.5)
@@ -1322,7 +1322,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.5)
+      vite: 5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.6)
       vue: 3.4.29(typescript@5.4.5)
     dev: true
 
@@ -2252,7 +2252,7 @@ packages:
       esbuild: 0.19.12
       magic-string: 0.30.10
       picocolors: 1.0.1
-      vite: 5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.5)
+      vite: 5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.6)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3738,8 +3738,8 @@ packages:
       truncate-utf8-bytes: 1.0.2
     dev: true
 
-  /sass@1.77.5:
-    resolution: {integrity: sha512-oDfX1mukIlxacPdQqNb6mV2tVCrnE+P3nVYioy72V5tlk56CPNcO4TCuFcaCRKKfJ1M3lH95CleRS+dVKL2qMg==}
+  /sass@1.77.6:
+    resolution: {integrity: sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -4074,7 +4074,7 @@ packages:
     dev: true
     optional: true
 
-  /vite@5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.5):
+  /vite@5.3.1(@types/node@20.14.5)(less@4.2.0)(sass@1.77.6):
     resolution: {integrity: sha512-XBmSKRLXLxiaPYamLv3/hnP/KXDai1NDexN0FpkTaZXTfycHvkRHoenpgl/fvuK/kPbB6xAgoyiryAhQNxYmAQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4107,7 +4107,7 @@ packages:
       less: 4.2.0
       postcss: 8.4.38
       rollup: 4.18.0
-      sass: 1.77.5
+      sass: 1.77.6
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
