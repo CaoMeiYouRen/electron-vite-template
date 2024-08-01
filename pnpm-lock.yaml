@@ -562,6 +562,9 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
+  '@types/node@20.14.2':
+    resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
+
   '@types/node@20.14.8':
     resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
 
@@ -2696,6 +2699,11 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
+  '@types/node@20.14.2':
+    dependencies:
+      undici-types: 5.26.5
+    optional: true
+
   '@types/node@20.14.8':
     dependencies:
       undici-types: 5.26.5
@@ -2706,7 +2714,7 @@ snapshots:
 
   '@types/plist@3.0.5':
     dependencies:
-      '@types/node': 22.0.2
+      '@types/node': 20.14.2
       xmlbuilder: 15.1.1
     optional: true
 
