@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@electron-toolkit/preload':
         specifier: ^3.0.1
-        version: 3.0.1(electron@33.0.2)
+        version: 3.0.1(electron@33.2.1)
       '@electron-toolkit/utils':
         specifier: ^3.0.0
-        version: 3.0.0(electron@33.0.2)
+        version: 3.0.0(electron@33.2.1)
     devDependencies:
       '@electron-toolkit/tsconfig':
         specifier: ^1.0.1
@@ -33,15 +33,12 @@ importers:
       '@vue/eslint-config-typescript':
         specifier: ^13.0.0
         version: 13.0.0(eslint-plugin-vue@9.30.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.6.3)
-      computeds:
-        specifier: ^0.0.1
-        version: 0.0.1
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
       electron:
-        specifier: ^33.0.2
-        version: 33.0.2
+        specifier: ^33.2.1
+        version: 33.2.1
       electron-builder:
         specifier: ^25.1.8
         version: 25.1.8(electron-builder-squirrel-windows@24.13.3)
@@ -1143,9 +1140,6 @@ packages:
     resolution: {integrity: sha512-D3uMHtGc/fcO1Gt1/L7i1e33VOvD4A9hfQLP+6ewd+BvG/gQ84Yh4oftEhAdjSMgBgwGL+jsppT7JYNpo6MHHg==}
     engines: {node: '>= 10'}
 
-  computeds@0.0.1:
-    resolution: {integrity: sha512-7CEBgcMjVmitjYo5q8JTJVra6X5mQ20uTThdK+0kR7UEaDrAWEQcRiBtWJzga4eRpP6afNwwLsX2SET2JhVB1Q==}
-
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
@@ -1326,8 +1320,8 @@ packages:
       '@swc/core':
         optional: true
 
-  electron@33.0.2:
-    resolution: {integrity: sha512-C2WksfP0COsMHbYXSJG68j6S3TjuGDrw/YT42B526yXalIlNQZ2GeAYKryg6AEMkIp3p8TUfDRD0+HyiyCt/nw==}
+  electron@33.2.1:
+    resolution: {integrity: sha512-SG/nmSsK9Qg1p6wAW+ZfqU+AV8cmXMTIklUL18NnOKfZLlum4ZsDoVdmmmlL39ZmeCaq27dr7CgslRPahfoVJg==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -2816,17 +2810,17 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@electron-toolkit/preload@3.0.1(electron@33.0.2)':
+  '@electron-toolkit/preload@3.0.1(electron@33.2.1)':
     dependencies:
-      electron: 33.0.2
+      electron: 33.2.1
 
   '@electron-toolkit/tsconfig@1.0.1(@types/node@22.8.6)':
     dependencies:
       '@types/node': 22.8.6
 
-  '@electron-toolkit/utils@3.0.0(electron@33.0.2)':
+  '@electron-toolkit/utils@3.0.0(electron@33.2.1)':
     dependencies:
-      electron: 33.0.2
+      electron: 33.2.1
 
   '@electron/asar@3.2.10':
     dependencies:
@@ -3877,8 +3871,6 @@ snapshots:
       normalize-path: 3.0.0
       readable-stream: 3.6.2
 
-  computeds@0.0.1: {}
-
   concat-map@0.0.1: {}
 
   config-file-ts@0.2.6:
@@ -4099,7 +4091,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@33.0.2:
+  electron@33.2.1:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 20.14.8
