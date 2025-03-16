@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@electron-toolkit/tsconfig": "^1.0.1",
-    "@electron/notarize": "^2.5.0",
+    "@electron/notarize": "^3.0.0",
     "@rushstack/eslint-patch": "^1.11.0",
     "@types/node": "22.13.10",
     "@vitejs/plugin-vue": "^5.2.1",
