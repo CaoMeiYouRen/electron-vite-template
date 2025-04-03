@@ -29,7 +29,7 @@ importers:
         version: 22.14.0
       '@vitejs/plugin-vue':
         specifier: ^5.2.3
-        version: 5.2.3(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1))(vue@3.5.13(typescript@5.8.2))
+        version: 5.2.3(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2))(vue@3.5.13(typescript@5.8.2))
       '@vue/eslint-config-typescript':
         specifier: ^13.0.0
         version: 13.0.0(eslint-plugin-vue@9.33.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.8.2)
@@ -44,7 +44,7 @@ importers:
         version: 26.0.12(electron-builder-squirrel-windows@24.13.3)
       electron-vite:
         specifier: ^3.1.0
-        version: 3.1.0(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1))
+        version: 3.1.0(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -58,14 +58,14 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       sass:
-        specifier: ^1.86.1
-        version: 1.86.1
+        specifier: ^1.86.2
+        version: 1.86.2
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
       vite:
         specifier: ^6.2.5
-        version: 6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1)
+        version: 6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.2)
@@ -2446,8 +2446,8 @@ packages:
   sanitize-filename@1.6.3:
     resolution: {integrity: sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==}
 
-  sass@1.86.1:
-    resolution: {integrity: sha512-Yaok4XELL1L9Im/ZUClKu//D2OP1rOljKj0Gf34a+GzLbMveOzL7CfqYo+JUa5Xt1nhTCW+OcKp/FtR7/iqj1w==}
+  sass@1.86.2:
+    resolution: {integrity: sha512-Rpfn0zAIDqvnSb2DihJTDFjbhqLHu91Wqac9rxontWk7R+2txcPjuujMqu1eeoezh5kAblVCS5EdFdyr0Jmu+w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -3586,9 +3586,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-vue@5.2.3(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1))(vue@3.5.13(typescript@5.8.2))':
+  '@vitejs/plugin-vue@5.2.3(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
-      vite: 6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1)
+      vite: 6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2)
       vue: 3.5.13(typescript@5.8.2)
 
   '@volar/language-core@2.4.11':
@@ -4303,7 +4303,7 @@ snapshots:
 
   electron-to-chromium@1.5.123: {}
 
-  electron-vite@3.1.0(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1)):
+  electron-vite@3.1.0(vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2)):
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-arrow-functions': 7.25.9(@babel/core@7.26.10)
@@ -4311,7 +4311,7 @@ snapshots:
       esbuild: 0.25.1
       magic-string: 0.30.17
       picocolors: 1.1.1
-      vite: 6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1)
+      vite: 6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -5395,7 +5395,7 @@ snapshots:
     dependencies:
       truncate-utf8-bytes: 1.0.2
 
-  sass@1.86.1:
+  sass@1.86.2:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.1.1
@@ -5608,7 +5608,7 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.1):
+  vite@6.2.5(@types/node@22.14.0)(less@4.2.2)(sass@1.86.2):
     dependencies:
       esbuild: 0.25.2
       postcss: 8.5.3
@@ -5617,7 +5617,7 @@ snapshots:
       '@types/node': 22.14.0
       fsevents: 2.3.3
       less: 4.2.2
-      sass: 1.86.1
+      sass: 1.86.2
 
   vscode-uri@3.1.0: {}
 
