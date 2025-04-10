@@ -29,7 +29,7 @@ importers:
         version: 22.14.0
       '@vitejs/plugin-vue':
         specifier: ^5.2.3
-        version: 5.2.3(vite@6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3))(vue@3.5.13(typescript@5.8.3))
+        version: 5.2.3(vite@6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3))(vue@3.5.13(typescript@5.8.3))
       '@vue/eslint-config-typescript':
         specifier: ^13.0.0
         version: 13.0.0(eslint-plugin-vue@9.33.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.8.3)
@@ -44,7 +44,7 @@ importers:
         version: 26.0.12(electron-builder-squirrel-windows@24.13.3)
       electron-vite:
         specifier: ^3.1.0
-        version: 3.1.0(vite@6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3))
+        version: 3.1.0(vite@6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -64,8 +64,8 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
       vite:
-        specifier: ^6.2.5
-        version: 6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)
+        specifier: ^6.2.6
+        version: 6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.8.3)
@@ -189,8 +189,8 @@ packages:
     engines: {node: '>=10.12.0'}
     hasBin: true
 
-  '@electron/asar@3.4.0':
-    resolution: {integrity: sha512-8ZAmXjsQ17wJxdv4755hZ1Xiw85dwETlWYQwl+imww18CaEK4bxPvAotJEfIZGbRMrNEJOTMyuVQD+yDY03N5Q==}
+  '@electron/asar@3.4.1':
+    resolution: {integrity: sha512-i4/rNPRS84t0vSRa2HorerGRXWyF4vThfHesw0dmcWHp+cspK743UanA0suA5Q5y8kzY2y6YKrvbIUn69BCAiA==}
     engines: {node: '>=10.12.0'}
     hasBin: true
 
@@ -2664,8 +2664,8 @@ packages:
     resolution: {integrity: sha512-veufcmxri4e3XSrT0xwfUR7kguIkaxBeosDg00yDWhk49wdwkSUrvvsm7nc75e1PUyvIeZj6nS8VQRYz2/S4Xg==}
     engines: {node: '>=0.6.0'}
 
-  vite@6.2.5:
-    resolution: {integrity: sha512-j023J/hCAa4pRIUH6J9HemwYfjB5llR2Ps0CWeikOtdR8+pAURAk0DoJC5/mm9kd+UgdnIy7d6HE4EAvlYhPhA==}
+  vite@6.2.6:
+    resolution: {integrity: sha512-9xpjNl3kR4rVDZgPNdTL0/c6ao4km69a/2ihNQbcANz8RuCOK3hQBmLSJf3bRKVQjVMda+YvizNE8AwvogcPbw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -2934,7 +2934,7 @@ snapshots:
       glob: 7.2.3
       minimatch: 3.1.2
 
-  '@electron/asar@3.4.0':
+  '@electron/asar@3.4.1':
     dependencies:
       commander: 5.1.0
       glob: 7.2.3
@@ -3043,7 +3043,7 @@ snapshots:
 
   '@electron/universal@1.5.1':
     dependencies:
-      '@electron/asar': 3.4.0
+      '@electron/asar': 3.4.1
       '@malept/cross-spawn-promise': 1.1.1
       debug: 4.4.0
       dir-compare: 3.3.0
@@ -3586,9 +3586,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-vue@5.2.3(vite@6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3))(vue@3.5.13(typescript@5.8.3))':
+  '@vitejs/plugin-vue@5.2.3(vite@6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3))(vue@3.5.13(typescript@5.8.3))':
     dependencies:
-      vite: 6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)
+      vite: 6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)
       vue: 3.5.13(typescript@5.8.3)
 
   '@volar/language-core@2.4.11':
@@ -4303,7 +4303,7 @@ snapshots:
 
   electron-to-chromium@1.5.123: {}
 
-  electron-vite@3.1.0(vite@6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)):
+  electron-vite@3.1.0(vite@6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)):
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-arrow-functions': 7.25.9(@babel/core@7.26.10)
@@ -4311,7 +4311,7 @@ snapshots:
       esbuild: 0.25.1
       magic-string: 0.30.17
       picocolors: 1.1.1
-      vite: 6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)
+      vite: 6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -5608,7 +5608,7 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite@6.2.5(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3):
+  vite@6.2.6(@types/node@22.14.0)(less@4.3.0)(sass@1.86.3):
     dependencies:
       esbuild: 0.25.2
       postcss: 8.5.3
