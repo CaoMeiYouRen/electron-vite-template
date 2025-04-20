@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@electron-toolkit/preload':
-        specifier: ^3.0.1
-        version: 3.0.1(electron@35.1.4)
+        specifier: ^3.0.2
+        version: 3.0.2(electron@35.1.4)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
         version: 4.0.0(electron@35.1.4)
@@ -164,8 +164,8 @@ packages:
     resolution: {integrity: sha512-0cp4PsWQ/9avqTVMCtZ+GirikIA36ikvjtHweU4/j8yLtgObI0+JUPhYFScgwlteveGB1rt3Cm8UhN04XayDig==}
     engines: {node: '>= 8.9.0'}
 
-  '@electron-toolkit/preload@3.0.1':
-    resolution: {integrity: sha512-EzoQmpK8jqqU8YnM5jRe0GJjGVJPke2KtANqz8QtN2JPT96ViOvProBdK5C6riCm0j1T8jjAGVQCZLQy9OVoIA==}
+  '@electron-toolkit/preload@3.0.2':
+    resolution: {integrity: sha512-TWWPToXd8qPRfSXwzf5KVhpXMfONaUuRAZJHsKthKgZR/+LqX1dZVSSClQ8OTAEduvLGdecljCsoT2jSshfoUg==}
     peerDependencies:
       electron: '>=13.0.0'
 
@@ -2926,7 +2926,7 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@electron-toolkit/preload@3.0.1(electron@35.1.4)':
+  '@electron-toolkit/preload@3.0.2(electron@35.1.4)':
     dependencies:
       electron: 35.1.4
 
