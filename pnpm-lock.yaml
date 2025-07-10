@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@electron-toolkit/preload':
         specifier: ^3.0.2
-        version: 3.0.2(electron@37.2.0)
+        version: 3.0.2(electron@37.2.1)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@37.2.0)
+        version: 4.0.0(electron@37.2.1)
     devDependencies:
       '@electron-toolkit/tsconfig':
         specifier: ^1.0.1
@@ -37,8 +37,8 @@ importers:
         specifier: ^7.0.3
         version: 7.0.3
       electron:
-        specifier: ^37.2.0
-        version: 37.2.0
+        specifier: ^37.2.1
+        version: 37.2.1
       electron-builder:
         specifier: ^26.0.12
         version: 26.0.12(electron-builder-squirrel-windows@24.13.3)
@@ -867,8 +867,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.16.2':
-    resolution: {integrity: sha512-Cdqa/eJTvt4fC4wmq1Mcc0CPUjp/Qy2FGqLza3z3pKymsI969TcZ54diNJv8UYUgeWxyb8FSbCkhdR6WqmUFhA==}
+  '@types/node@22.16.3':
+    resolution: {integrity: sha512-sr4Xz74KOUeYadexo1r8imhRtlVXcs+j3XK3TcoiYk7B1t3YRVJgtaD3cwX73NYb71pmVuMLNRhJ9XKdoDB74g==}
 
   '@types/node@24.0.12':
     resolution: {integrity: sha512-LtOrbvDf5ndC9Xi+4QZjVL0woFymF/xSTKZKPgrrl7H7XoeDvnD+E2IclKVDyaK9UM756W/3BXqSU+JEHopA9g==}
@@ -1490,8 +1490,8 @@ packages:
       '@swc/core':
         optional: true
 
-  electron@37.2.0:
-    resolution: {integrity: sha512-dE6+qeg6SBUVd5d8CD2+GH82kh+gF1v40+hs+U+UOno681NMSGmBtgqwldQRpbvtnQDD7V2M9Cpfr3+Abw7aBg==}
+  electron@37.2.1:
+    resolution: {integrity: sha512-ae2EbzRNqIAHlftfCHtbbt6EgJUW8+zxWLONqNnn2iSrLF0O/pbxbff3xcpZYPpmFBs4uqjoi+s4QS7DQ+zZ/w==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -2963,17 +2963,17 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@electron-toolkit/preload@3.0.2(electron@37.2.0)':
+  '@electron-toolkit/preload@3.0.2(electron@37.2.1)':
     dependencies:
-      electron: 37.2.0
+      electron: 37.2.1
 
   '@electron-toolkit/tsconfig@1.0.1(@types/node@24.0.12)':
     dependencies:
       '@types/node': 24.0.12
 
-  '@electron-toolkit/utils@4.0.0(electron@37.2.0)':
+  '@electron-toolkit/utils@4.0.0(electron@37.2.1)':
     dependencies:
-      electron: 37.2.0
+      electron: 37.2.1
 
   '@electron/asar@3.2.18':
     dependencies:
@@ -3537,7 +3537,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.16.2':
+  '@types/node@22.16.3':
     dependencies:
       undici-types: 6.21.0
 
@@ -4379,10 +4379,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@37.2.0:
+  electron@37.2.1:
     dependencies:
       '@electron/get': 2.0.3
-      '@types/node': 22.16.2
+      '@types/node': 22.16.3
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
