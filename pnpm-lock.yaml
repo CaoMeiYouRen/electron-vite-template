@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@electron-toolkit/preload':
         specifier: ^3.0.2
-        version: 3.0.2(electron@37.2.2)
+        version: 3.0.2(electron@37.2.3)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@37.2.2)
+        version: 4.0.0(electron@37.2.3)
     devDependencies:
       '@electron-toolkit/tsconfig':
         specifier: ^1.0.1
@@ -37,8 +37,8 @@ importers:
         specifier: ^7.0.3
         version: 7.0.3
       electron:
-        specifier: ^37.2.2
-        version: 37.2.2
+        specifier: ^37.2.3
+        version: 37.2.3
       electron-builder:
         specifier: ^26.0.12
         version: 26.0.12(electron-builder-squirrel-windows@24.13.3)
@@ -1490,8 +1490,8 @@ packages:
       '@swc/core':
         optional: true
 
-  electron@37.2.2:
-    resolution: {integrity: sha512-qEIUs+3elu7wOfzLEtLz4Innfe+8nQyhLh9qjrJY0d0MxdRolLMDUD9QwAQ743vDZ+bUg+gqwigzP7kV78S3hA==}
+  electron@37.2.3:
+    resolution: {integrity: sha512-JRKKn8cRDXDfkC+oWISbYs+c+L6RA776JM0NiB9bn2yV8H/LnBUlVPzKKfsXgrUIokN4YcbCw694vfAdEJwtGw==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -1699,8 +1699,8 @@ packages:
     resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
     engines: {node: '>= 6'}
 
-  form-data@4.0.3:
-    resolution: {integrity: sha512-qsITQPfmvMOSAdeyZ+12I1c+CKSstAFAwu+97zrnWAbIr5u8wfsExUzCesVLC8NgHuRUqNN4Zy6UPWUTRGslcA==}
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
   fs-constants@1.0.0:
@@ -2963,17 +2963,17 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@electron-toolkit/preload@3.0.2(electron@37.2.2)':
+  '@electron-toolkit/preload@3.0.2(electron@37.2.3)':
     dependencies:
-      electron: 37.2.2
+      electron: 37.2.3
 
   '@electron-toolkit/tsconfig@1.0.1(@types/node@24.0.14)':
     dependencies:
       '@types/node': 24.0.14
 
-  '@electron-toolkit/utils@4.0.0(electron@37.2.2)':
+  '@electron-toolkit/utils@4.0.0(electron@37.2.3)':
     dependencies:
-      electron: 37.2.2
+      electron: 37.2.3
 
   '@electron/asar@3.2.18':
     dependencies:
@@ -3087,7 +3087,7 @@ snapshots:
       node-api-version: 0.2.1
       ora: 5.4.1
       read-binary-file-arch: 1.0.6
-      semver: 7.7.1
+      semver: 7.7.2
       tar: 6.2.1
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -3819,7 +3819,7 @@ snapshots:
       ejs: 3.1.10
       electron-builder-squirrel-windows: 24.13.3(dmg-builder@26.0.12)
       electron-publish: 24.13.1
-      form-data: 4.0.3
+      form-data: 4.0.4
       fs-extra: 10.1.0
       hosted-git-info: 4.1.0
       is-ci: 3.0.1
@@ -4379,7 +4379,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@37.2.2:
+  electron@37.2.3:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 22.16.4
@@ -4661,7 +4661,7 @@ snapshots:
       es-set-tostringtag: 2.1.0
       mime-types: 2.1.35
 
-  form-data@4.0.3:
+  form-data@4.0.4:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
