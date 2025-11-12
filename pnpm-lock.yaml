@@ -22,8 +22,8 @@ importers:
         specifier: ^3.0.1
         version: 3.1.1
       '@rushstack/eslint-patch':
-        specifier: ^1.12.0
-        version: 1.14.1
+        specifier: ^1.15.0
+        version: 1.15.0
       '@types/node':
         specifier: 24.10.1
         version: 24.10.1
@@ -674,8 +674,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rushstack/eslint-patch@1.14.1':
-    resolution: {integrity: sha512-jGTk8UD/RdjsNZW8qq10r0RBvxL8OWtoT+kImlzPDFilmozzM+9QmIJsmze9UiSBrFU45ZxhTYBypn9q9z/VfQ==}
+  '@rushstack/eslint-patch@1.15.0':
+    resolution: {integrity: sha512-ojSshQPKwVvSMR8yT2L/QtUkV5SXi/IfDiJ4/8d6UbTPjiHVmxZzUAzGD8Tzks1b9+qQkZa0isUOvYObedITaw==}
 
   '@sindresorhus/is@4.6.0':
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
@@ -3099,7 +3099,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.53.2':
     optional: true
 
-  '@rushstack/eslint-patch@1.14.1': {}
+  '@rushstack/eslint-patch@1.15.0': {}
 
   '@sindresorhus/is@4.6.0': {}
 
