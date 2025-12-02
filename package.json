@@ -24,24 +24,30 @@
     "@electron-toolkit/utils": "^4.0.0"
   },
   "devDependencies": {
-    "@electron-toolkit/tsconfig": "^2.0.0",
+    "@electron-toolkit/tsconfig": "^1.0.1",
     "@electron/notarize": "^3.0.1",
-    "@rushstack/eslint-patch": "^1.15.0",
-    "@types/node": "24.10.1",
-    "@vitejs/plugin-vue": "^6.0.2",
+    "@rushstack/eslint-patch": "^1.12.0",
+    "@types/node": "24.1.0",
+    "@vitejs/plugin-vue": "^5.2.4",
     "@vue/eslint-config-typescript": "^13.0.0",
     "cross-env": "^10.0.0",
-    "electron": "^39.2.4",
+    "electron": "^37.2.5",
     "electron-builder": "^26.0.12",
     "electron-vite": "^4.0.0",
     "eslint": "^8.57.1",
     "eslint-config-cmyr": "^1.1.33",
     "eslint-plugin-vue": "^9.33.0",
     "less": "^4.4.0",
-    "sass": "^1.94.2",
+    "sass": "^1.89.2",
     "typescript": "^5.9.2",
-    "vite": "^7.2.6",
-    "vue": "^3.5.25",
-    "vue-tsc": "^3.1.5"
+    "vite": "^6.3.5",
+    "vue": "^3.5.18",
+    "vue-tsc": "^3.0.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "js-yaml": "^4.1.1",
+      "config-file-ts>glob": "^10.5.0"
+    }
   }
 }
