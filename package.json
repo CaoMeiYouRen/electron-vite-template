@@ -42,7 +42,7 @@
     "typescript": "^5.9.2",
     "vite": "^7.2.7",
     "vue": "^3.5.18",
-    "vue-tsc": "^3.1.7"
+    "vue-tsc": "^3.1.8"
   },
   "pnpm": {
     "overrides": {
