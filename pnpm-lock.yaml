@@ -14,10 +14,10 @@ importers:
     dependencies:
       '@electron-toolkit/preload':
         specifier: ^3.0.2
-        version: 3.0.2(electron@40.0.0)
+        version: 3.0.2(electron@40.1.0)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@40.0.0)
+        version: 4.0.0(electron@40.1.0)
     devDependencies:
       '@electron-toolkit/tsconfig':
         specifier: ^2.0.0
@@ -41,8 +41,8 @@ importers:
         specifier: ^10.0.0
         version: 10.1.0
       electron:
-        specifier: ^40.0.0
-        version: 40.0.0
+        specifier: ^40.1.0
+        version: 40.1.0
       electron-builder:
         specifier: ^26.4.0
         version: 26.4.0(electron-builder-squirrel-windows@26.0.12)
@@ -911,8 +911,8 @@ packages:
   '@types/fs-extra@9.0.13':
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
 
-  '@types/http-cache-semantics@4.0.4':
-    resolution: {integrity: sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==}
+  '@types/http-cache-semantics@4.2.0':
+    resolution: {integrity: sha512-L3LgimLHXtGkWikKnsPg0/VFx9OGZaC+eN1u4r+OB1XRqH3meBIAVC2zr1WdMH+RHmnRkqliQAOHNJ/E0j/e0Q==}
 
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
@@ -1486,8 +1486,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@40.0.0:
-    resolution: {integrity: sha512-UyBy5yJ0/wm4gNugCtNPjvddjAknMTuXR2aCHioXicH7aKRKGDBPp4xqTEi/doVcB3R+MN3wfU9o8d/9pwgK2A==}
+  electron@40.1.0:
+    resolution: {integrity: sha512-2j/kvw7uF0H1PnzYBzw2k2Q6q16J8ToKrtQzZfsAoXbbMY0l5gQi2DLOauIZLzwp4O01n8Wt/74JhSRwG0yj9A==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -2988,17 +2988,17 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@electron-toolkit/preload@3.0.2(electron@40.0.0)':
+  '@electron-toolkit/preload@3.0.2(electron@40.1.0)':
     dependencies:
-      electron: 40.0.0
+      electron: 40.1.0
 
   '@electron-toolkit/tsconfig@2.0.0(@types/node@25.1.0)':
     dependencies:
       '@types/node': 25.1.0
 
-  '@electron-toolkit/utils@4.0.0(electron@40.0.0)':
+  '@electron-toolkit/utils@4.0.0(electron@40.1.0)':
     dependencies:
-      electron: 40.0.0
+      electron: 40.1.0
 
   '@electron/asar@3.2.18':
     dependencies:
@@ -3594,7 +3594,7 @@ snapshots:
 
   '@types/cacheable-request@6.0.3':
     dependencies:
-      '@types/http-cache-semantics': 4.0.4
+      '@types/http-cache-semantics': 4.2.0
       '@types/keyv': 3.1.4
       '@types/node': 25.1.0
       '@types/responselike': 1.0.3
@@ -3609,7 +3609,7 @@ snapshots:
     dependencies:
       '@types/node': 25.1.0
 
-  '@types/http-cache-semantics@4.0.4': {}
+  '@types/http-cache-semantics@4.2.0': {}
 
   '@types/keyv@3.1.4':
     dependencies:
@@ -4411,7 +4411,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@40.0.0:
+  electron@40.1.0:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 24.10.9
