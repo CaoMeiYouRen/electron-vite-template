@@ -14,10 +14,10 @@ importers:
     dependencies:
       '@electron-toolkit/preload':
         specifier: ^3.0.2
-        version: 3.0.2(electron@40.4.1)
+        version: 3.0.2(electron@40.6.0)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@40.4.1)
+        version: 4.0.0(electron@40.6.0)
     devDependencies:
       '@electron-toolkit/tsconfig':
         specifier: ^2.0.0
@@ -41,8 +41,8 @@ importers:
         specifier: ^10.0.0
         version: 10.1.0
       electron:
-        specifier: ^40.4.1
-        version: 40.4.1
+        specifier: ^40.6.0
+        version: 40.6.0
       electron-builder:
         specifier: ^26.8.1
         version: 26.8.1(electron-builder-squirrel-windows@26.0.12)
@@ -1494,8 +1494,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@40.4.1:
-    resolution: {integrity: sha512-N1ZXybQZL8kYemO8vAeh9nrk4mSvqlAO8xs0QCHkXIvRnuB/7VGwEehjvQbsU5/f4bmTKpG+2GQERe/zmKpudQ==}
+  electron@40.6.0:
+    resolution: {integrity: sha512-ett8W+yOFGDuM0vhJMamYSkrbV3LoaffzJd9GfjI96zRAxyrNqUSKqBpf/WGbQCweDxX2pkUCUfrv4wwKpsFZA==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -2128,6 +2128,10 @@ packages:
   minimatch@10.2.1:
     resolution: {integrity: sha512-MClCe8IL5nRRmawL6ib/eT4oLyeKMGCghibcDWK+J0hh0Q8kqSdia6BvbRMVk6mPa6WqUa5uR2oxt6C5jd533A==}
     engines: {node: 20 || >=22}
+
+  minimatch@10.2.2:
+    resolution: {integrity: sha512-+G4CpNBxa5MprY+04MbgOw1v7So6n5JY166pFi9KfYwT78fxScCeSNQSNzp6dpPSW2rONOps6Ocam1wFhCgoVw==}
+    engines: {node: 18 || 20 || >=22}
 
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
@@ -3004,17 +3008,17 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@electron-toolkit/preload@3.0.2(electron@40.4.1)':
+  '@electron-toolkit/preload@3.0.2(electron@40.6.0)':
     dependencies:
-      electron: 40.4.1
+      electron: 40.6.0
 
   '@electron-toolkit/tsconfig@2.0.0(@types/node@25.2.3)':
     dependencies:
       '@types/node': 25.2.3
 
-  '@electron-toolkit/utils@4.0.0(electron@40.4.1)':
+  '@electron-toolkit/utils@4.0.0(electron@40.6.0)':
     dependencies:
-      electron: 40.4.1
+      electron: 40.6.0
 
   '@electron/asar@3.2.18':
     dependencies:
@@ -3927,7 +3931,7 @@ snapshots:
       js-yaml: 4.1.1
       json5: 2.2.3
       lazy-val: 1.0.5
-      minimatch: 10.2.1
+      minimatch: 10.2.2
       plist: 3.1.0
       resedit: 1.7.2
       semver: 7.7.4
@@ -4444,7 +4448,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@40.4.1:
+  electron@40.6.0:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 24.10.13
@@ -5193,6 +5197,10 @@ snapshots:
   mimic-response@3.1.0: {}
 
   minimatch@10.2.1:
+    dependencies:
+      brace-expansion: 5.0.2
+
+  minimatch@10.2.2:
     dependencies:
       brace-expansion: 5.0.2
 
