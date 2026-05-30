@@ -4,6 +4,11 @@ packages:
 overrides:
   js-yaml: ^4.1.1
   config-file-ts>glob: ^10.5.0
+  '@xmldom/xmldom': 0.8.13
+  flatted: 3.4.2
+  tar: 7.5.11
+  tmp: 0.2.6
+  minimatch@10.2.1: 10.2.5
 
 allowBuilds:
   '@parcel/watcher': true
