@@ -1,0 +1,15 @@
+packages:
+  - .
+
+overrides:
+  js-yaml: ^4.1.1
+  config-file-ts>glob: ^10.5.0
+
+allowBuilds:
+  '@parcel/watcher': true
+  electron-winstaller: true
+  esbuild: true
+
+shamefullyHoist: true
+strictPeerDependencies: false
+virtualStoreDirMaxLength: 70
