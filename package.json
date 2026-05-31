@@ -27,7 +27,7 @@
     "@electron-toolkit/tsconfig": "^2.0.0",
     "@electron/notarize": "^3.0.1",
     "@rushstack/eslint-patch": "^1.16.1",
-    "@types/minimatch": "^3.0.5",
+    "@types/minimatch": "^6.0.0",
     "@types/node": "25.9.1",
     "@vitejs/plugin-vue": "^6.0.7",
     "@vue/eslint-config-typescript": "^13.0.0",
