@@ -1,10 +1,7 @@
 allowBuilds:
+  '@parcel/watcher': set this to true or false
   electron-winstaller: true
   esbuild: true
-
-onlyBuiltDependencies:
-  - electron-winstaller
-  - esbuild
 
 overrides:
   handlebars: "^4.7.9"
