@@ -3,6 +3,11 @@ allowBuilds:
   electron-winstaller: true
   esbuild: true
 
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - electron-winstaller
+  - esbuild
+
 overrides:
   handlebars: "^4.7.9"
   flatted: "^3.4.2"
