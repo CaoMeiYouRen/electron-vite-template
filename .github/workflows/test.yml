@@ -7,7 +7,7 @@ jobs:
   test:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest, macos-latest]
     name: Test@${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
@@ -31,3 +31,6 @@ jobs:
       - name: Build on Windows
         if: matrix.os == 'windows-latest'
         run: pnpm run build:win
+      - name: Build on macOS
+        if: matrix.os == 'macos-latest'
+        run: pnpm run build:mac
