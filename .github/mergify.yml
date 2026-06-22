@@ -4,6 +4,7 @@ pull_request_rules:
       # - check-success=Test
       - check-success=Test@ubuntu-latest
       - check-success=Test@windows-latest
+      - check-success=Test@macos-latest
       - author~=^dependabot(|-preview)\[bot\]$
       - label=dependencies
     actions:
