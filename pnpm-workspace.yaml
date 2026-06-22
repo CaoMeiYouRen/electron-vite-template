@@ -12,3 +12,6 @@ overrides:
   handlebars: "^4.7.9"
   flatted: "^3.4.2"
   rollup: "^4.59.0"
+
+patchedDependencies:
+  app-builder-lib@26.14.0: patches/app-builder-lib@26.14.0.patch
