@@ -55,7 +55,7 @@ importers:
         version: 26.6.2
       '@vitejs/plugin-vue':
         specifier: ^6.0.9
-        version: 6.0.9(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1))(vue@3.5.43(typescript@5.9.2))
+        version: 6.0.9(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0))(vue@3.5.43(typescript@5.9.2))
       '@vue/eslint-config-typescript':
         specifier: ^13.0.0
         version: 13.0.0(eslint-plugin-vue@9.33.0(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0))(eslint@8.57.1(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.2)
@@ -70,7 +70,7 @@ importers:
         version: 26.15.3(electron-builder-squirrel-windows@26.15.3)(supports-color@7.2.0)
       electron-vite:
         specifier: ^5.0.0
-        version: 5.0.0(supports-color@7.2.0)(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1))
+        version: 5.0.0(supports-color@7.2.0)(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1(supports-color@7.2.0)
@@ -84,14 +84,14 @@ importers:
         specifier: ^4.9.1
         version: 4.9.1(supports-color@7.2.0)
       sass:
-        specifier: ^1.104.1
-        version: 1.104.1
+        specifier: ^1.105.0
+        version: 1.105.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
       vite:
         specifier: ^7.3.2
-        version: 7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1)
+        version: 7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0)
       vue:
         specifier: ^3.5.43
         version: 3.5.43(typescript@5.9.2)
@@ -2122,8 +2122,8 @@ packages:
   sanitize-filename@1.6.4:
     resolution: {integrity: sha512-9ZyI08PsvdQl2r/bBIGubpVdR3RR9sY6RDiWFPreA21C/EFlQhmgo20UZlNjZMMZNubusLhAQozkA0Od5J21Eg==}
 
-  sass@1.104.1:
-    resolution: {integrity: sha512-yDA+1aIG3EHgN4V/BvuhCvu61FF6hEd4e+9DxikUm9U0CAGuvdIZ/UYy7qbOxjhbbWQraoyLlMuzdRGOSV5Bmw==}
+  sass@1.105.0:
+    resolution: {integrity: sha512-4EjSuRTyG8M4yRXXY1PT9OUV5zz23xBxJkbIAprohKHqf6HOU4MCpE3U3vAC+iO1gxobBjESNbcj8rYAQZWnyA==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -3159,10 +3159,10 @@ snapshots:
 
   '@ungap/structured-clone@1.3.1': {}
 
-  '@vitejs/plugin-vue@6.0.9(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1))(vue@3.5.43(typescript@5.9.2))':
+  '@vitejs/plugin-vue@6.0.9(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0))(vue@3.5.43(typescript@5.9.2))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1)
+      vite: 7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0)
       vue: 3.5.43(typescript@5.9.2)
 
   '@volar/language-core@2.4.28':
@@ -3658,7 +3658,7 @@ snapshots:
 
   electron-to-chromium@1.5.427: {}
 
-  electron-vite@5.0.0(supports-color@7.2.0)(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1)):
+  electron-vite@5.0.0(supports-color@7.2.0)(vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0)):
     dependencies:
       '@babel/core': 7.29.7(supports-color@7.2.0)
       '@babel/plugin-transform-arrow-functions': 7.29.7(@babel/core@7.29.7(supports-color@7.2.0))
@@ -3666,7 +3666,7 @@ snapshots:
       esbuild: 0.28.1
       magic-string: 0.30.21
       picocolors: 1.1.1
-      vite: 7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1)
+      vite: 7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4604,7 +4604,7 @@ snapshots:
     dependencies:
       truncate-utf8-bytes: 1.0.2
 
-  sass@1.104.1:
+  sass@1.105.0:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
@@ -4786,7 +4786,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.104.1):
+  vite@7.3.5(@types/node@26.6.2)(jiti@2.7.0)(less@4.9.1(supports-color@7.2.0))(sass@1.105.0):
     dependencies:
       esbuild: 0.28.1
       fdir: 6.5.0(picomatch@4.0.4)
@@ -4799,7 +4799,7 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.7.0
       less: 4.9.1(supports-color@7.2.0)
-      sass: 1.104.1
+      sass: 1.105.0
 
   vscode-uri@3.1.0: {}
 
