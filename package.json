@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@electron-toolkit/tsconfig": "^2.0.0",
-    "@electron/notarize": "^3.0.1",
+    "@electron/notarize": "^3.1.2",
     "@rushstack/eslint-patch": "^1.16.1",
     "@types/minimatch": "^3.0.5",
     "@types/node": "26.6.4",
